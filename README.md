@@ -24,3 +24,5 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+Big $\Theta$ would be $\Theta(v^2)$ where v is the number of vertices. This is because the algorithm checks every other vertex within the graph for the shortest possible route.
