@@ -4,6 +4,8 @@ const jsc = require('jsverify');
 
 eval(fs.readFileSync('code.js')+'');
 
+//Helped Aaron Krapes in building test code.
+
 const testset = [
     { graph:  [ [ 0, 4, 0, 0, 0, 0, 0, 8, 0 ],
                 [ 4, 0, 8, 0, 0, 0, 0, 11, 0 ],
