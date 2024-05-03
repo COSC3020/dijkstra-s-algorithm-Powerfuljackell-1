@@ -1,4 +1,5 @@
 //used geeks for geeks code, wrote my own test code
+//https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
 
 function dijkstra(graph) {
     return dijkstraHelper(graph, 0);
